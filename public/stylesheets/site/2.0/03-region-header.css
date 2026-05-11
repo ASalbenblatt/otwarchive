@@ -25,7 +25,7 @@ notice that CSS3 declarations sit are indented twice (four spaces) and always co
 }
 
 #header {
-  font-size: 0.875em;
+  font-size: 1em;
   margin: 0 0 1em;
   padding: 0;
   position: relative;
