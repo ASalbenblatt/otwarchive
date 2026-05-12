@@ -31,7 +31,7 @@ SUBSECTIONS:
 .splash .module h3 {
   border-bottom: 1px solid #c8c8c8;
   color: #900;
-  font-size: 1.714em;
+  font-size: 2.25em;
 }
 
 .splash span.link {
@@ -39,7 +39,7 @@ SUBSECTIONS:
 }
 
 .splash .link a {
-  font-size: 0.583em;
+  font-size: 0.5625em;
 }
 
 .splash .browse, .splash div.news {
@@ -148,7 +148,7 @@ SUBSECTIONS:
 
 .splash .account .actions {
   float: none;
-  font-size: 1.143em;
+  font-size: 1.125em;
 }
 
 /* module: news */
@@ -162,7 +162,7 @@ SUBSECTIONS:
 }
 
 .splash .news .meta {
-  font: normal 0.857em 'Monaco', 'Consolas', Courier, monospace;
+  font: normal 0.875em 'Monaco', 'Consolas', Courier, monospace;
 }
 
 .splash .news blockquote {
@@ -180,7 +180,7 @@ SUBSECTIONS:
 /* module: marked for later */
 
 .splash .blurb blockquote {
-  margin: 0.643em auto;
+  margin: 0.625em auto;
 }
 
 /* module: unread messages */
@@ -271,11 +271,11 @@ Guidelines.
 
 .docs .userstuff h6 {
   border-bottom: none;
-  margin: 0.714em 0;
+  margin: 0.75em 0;
 }
 
 .docs .userstuff ul, .docs .userstuff ol, .docs .userstuff details .toc {
-  margin: 0.643em auto;
+  margin: 0.625em auto;
   padding: 0;
 }
 
@@ -312,7 +312,7 @@ For practicality, the in-page full TOS module on the account creation page
 }
 
 #tos-partial .userstuff {
-  margin: 0.643em;
+  margin: 0.625em;
   max-width: 100%;
 }
 
@@ -326,15 +326,15 @@ admin role is only admin facing, and changes normal views in role-admin.css
 
 .feedbacks h3 {
   clear: right;
-  padding-top: 1.929em;
+  padding-top: 2.5em;
 }
 
 .feedbacks form {
-  margin-top: 1.929em;
+  margin-top: 2.5em;
 }
 
 .feedbacks form .notice, .feedbacks .banner {
-  margin: 0.643em;
+  margin: 0.625em;
 }
 
 /* 6. ZONE: SYSTEM: FAQS
@@ -349,7 +349,7 @@ For practicality, /archive_faqs are also .docs and .support and have the .userst
 
 .faq .categories h3 {
   border-bottom: 0.25em double #333;
-  margin-top: 1.929em;
+  margin-top: 2.5em;
 }
 
 .faq .categories li {
@@ -369,8 +369,8 @@ For practicality, /archive_faqs are also .docs and .support and have the .userst
 }
 
 .faq .userstuff .notice, .faq .userstuff .caution, .faq .example, .guideline .userstuff .notice, .guideline .userstuff .caution, .guideline .example  {
-  margin: 0.643em 3.858em;
-  padding: 0.643em;
+  margin: 0.625em 4.125em;
+  padding: 0.625em;
 }
 
 .faq .example, .guideline .example {
@@ -378,7 +378,7 @@ For practicality, /archive_faqs are also .docs and .support and have the .userst
 }
 
 .faq .userstuff nav.toc {
-  margin: 3.215em auto;
+  margin: 3.5em auto;
 }
 
 /* 7. ZONE: SYSTEM: TOS, TOS FAQ, AND TOS POPUP */
@@ -396,7 +396,7 @@ For practicality, /archive_faqs are also .docs and .support and have the .userst
 }
 
 .tos_faq .userstuff .toc {
-  margin-bottom: 3.215em;
+  margin-bottom: 3.5em;
 }
 
 #tos_prompt {
@@ -439,7 +439,7 @@ For practicality, /archive_faqs are also .docs and .support and have the .userst
 }
 
 #tos_prompt p:first-of-type {
-  margin: 2em 0 0.643em 0;
+  margin: 2em 0 0.625em 0;
 }
 
 #tos_prompt .confirmation {
@@ -470,7 +470,7 @@ For practicality, /archive_faqs are also .docs and .support and have the .userst
 }
 
 #proxy-notice .userstuff {
-  padding: 0.643em 0.875em;
+  padding: 0.625em 0.875em;
 }
 
 #proxy-notice .submit {

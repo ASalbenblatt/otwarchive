@@ -30,8 +30,8 @@ fieldset, form dl, fieldset dl dl, fieldset fieldset fieldset, fieldset fieldset
   display: block;
   background: #ddd;
   border: 2px solid #f3efec;
-  margin: 0.643em;
-  padding: 0.643em;
+  margin: 0.625em;
+  padding: 0.625em;
     box-shadow: inset 1px 0 5px #999;
 }
 
@@ -48,7 +48,7 @@ fieldset fieldset, fieldset dl dl, form blockquote.userstuff {
 }
 
 fieldset dd dl, form .meta dd, fieldset dl fieldset dl, dd fieldset {
-  margin: 0.643em 0;
+  margin: 0.625em 0;
 }
 
 /* end nesting */
@@ -123,7 +123,7 @@ option, .actions option, form code {
 form p {
   clear: right;
   margin: auto;
-  padding: 0.643em;
+  padding: 0.625em;
 }
 
 form dt {
@@ -189,7 +189,7 @@ We only use error messages for LiveValidation. Style spoofs the system error mes
 .LV_validation_message {
   font-weight: 900;
   position: absolute;
-  margin-top: 0.643em;
+  margin-top: 0.625em;
   margin-right: 15em;
   z-index: 1;
 }
@@ -210,11 +210,11 @@ We only use error messages for LiveValidation. Style spoofs the system error mes
 .LV_invalid:before {
   border-color: #900 transparent;
   border-style: solid;
-  border-width: 0 0.643em 0.643em;
+  border-width: 0 0.625em 0.625em;
   content: "";
   left: 0.875em;
   position: absolute;
-  top: -0.643em;
+  top: -0.625em;
 }
 
 /* WIDGET: AUTO COMPLETE */
@@ -284,7 +284,7 @@ form li ul.autocomplete li.input {
 }
 
 .ui-sortable input {
-  margin: 0.429em 0 0.25em 0.25em;
+  margin: 0.5em 0 0.25em 0.25em;
 }
 
 .ui-sortable .heading {
@@ -312,7 +312,7 @@ form li ul.autocomplete li.input {
   background: #fff;
   display: none;
   overflow: hidden;
-  padding: 0.643em;
+  padding: 0.625em;
   font-size: 87.5%;
     box-shadow: 3px 3px 5px;
 }
@@ -370,12 +370,12 @@ a.ui-datepicker-next {
 
 .ui-timepicker-div dl {
   float: left;
-  margin: 0.643em 0;
+  margin: 0.625em 0;
 }
 
 .ui_tpicker_hour_label, .ui_tpicker_minute_label {
   padding-top: 0.25em;
-  height: 1.45em;
+  height: 1.625em;
 }
 
 /* WIDGET: TOOLTIP (todo, requires graceful degradation testing, can't see any reason for this jS)
@@ -396,7 +396,7 @@ http://craigsworks.com
 
 .qtip-content {
   position: relative;
-  padding: 0.15em 0.25em;
+  padding: 0.125em 0.25em;
   background: #d1e1ef;
   border: 1px solid #c2d2df;
   overflow: hidden;
@@ -605,7 +605,7 @@ form.single fieldset {
 form.single legend {
   height: auto;
   width: auto;
-  font-size: 1.143em;
+  font-size: 1.125em;
   font-weight: bold;
   padding: 0.5em;
     opacity: 1;
@@ -628,7 +628,7 @@ form.single ul.autocomplete {
 }
 
 form.single .autocomplete li.input {
-  margin: 0 0.643em 0.25em 0;
+  margin: 0 0.625em 0.25em 0;
 }
 
 form.single .autocomplete .added {
@@ -673,7 +673,7 @@ form.single .autocomplete + input + span.submit input[type="submit"] {
 }
 
 .toggled .bookmark form p.footnote, .dynamic .bookmark form p.footnote {
-  padding-bottom: 0.643em;
+  padding-bottom: 0.625em;
 }
 
 /* INTERACTION: POST (work, chapter, comment, news, feedback, challenge etc) */
@@ -696,12 +696,12 @@ form.single .autocomplete + input + span.submit input[type="submit"] {
 
 .confirm input[type="text"], .confirm input[type="password"] {
   margin-block: 0.25em;
-  padding: 0.643em 0.375em;
+  padding: 0.625em 0.375em;
 }
 
 .confirm input[type="submit"] {
   margin-block: 0.25em;
-  padding: 0.643em;
+  padding: 0.625em;
   vertical-align: bottom;
 }
 

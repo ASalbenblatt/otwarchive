@@ -24,12 +24,12 @@
 #header #greeting .navigation .dropdown:hover .menu, #header #greeting .open .menu {
   left: auto;
   right: 0;
-  top: 1.715em;
+  top: 2.25em;
 }
 
 #header .navigation .dropdown:hover .menu, #header .open .menu {
   position: absolute;
-  top: 2.13em;
+  top: 2.625em;
   left: 0;
 }
 

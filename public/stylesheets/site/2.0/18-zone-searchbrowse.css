@@ -27,7 +27,7 @@ Arguably filter and search could be styled in interactions but I've put them her
 
 form.search input[type="text"] {
   border-top-color: #999;
-  padding: 0.15em 0.25em;
+  padding: 0.125em 0.25em;
     border-radius: 1em;
 }
 
@@ -38,7 +38,7 @@ form.search input[type="text"] {
 .search [role="tooltip"] {
   background: #ddd;
   border: 1px solid #fff;
-  padding: 0.15em;
+  padding: 0.125em;
   position: absolute;
   left: -999em;
   font-size: 0.75em;
@@ -53,14 +53,14 @@ form.search input[type="text"] {
 
 li.search fieldset {
   margin: auto;
-  padding: 0.15em;
+  padding: 0.125em;
   font-size: 87.5%;
   overflow: visible;
   width: auto;
 }
 
 .search .tags dd.submit {
-  margin: -3em 0.643em 0;
+  margin: -3em 0.625em 0;
 }
 
 /* INTERACTION: FILTER */
@@ -103,7 +103,7 @@ form.filters {
 .filters .submit input {
   height: 100%;
   margin: 1em 0;
-  min-height: 1.286em;
+  min-height: 1.5em;
   padding-left: 0;
   padding-right: 0;
   text-align: center;
@@ -111,7 +111,7 @@ form.filters {
 }
 
 .filters dt.heading {
-  margin-top: 1.929em;
+  margin-top: 2.5em;
 }
 
 .filters .expander {
@@ -119,7 +119,7 @@ form.filters {
   border: none;
   color: #2a2a2a;
   height: 100%;
-  min-height: 1.786em; /* default button height plus 0.25 vertical padding */
+  min-height: 2em; /* default button height plus 0.25 vertical padding */
   outline: none;
   padding: 0.25em 0 0.25em 14px;
   text-align: left;
@@ -147,8 +147,8 @@ form.filters {
 
 .filters .group dt.bookmarker {
   border-top: 1px solid #f3efec;
-  margin-top: 0.643em;
-  padding-top: 0.643em;
+  margin-top: 0.625em;
+  padding-top: 0.625em;
 }
 
 .filters .more dd.search, .filters .more dt.search, .filters .range dd {
@@ -164,7 +164,7 @@ form.filters {
 }
 
 .filters .sort + .heading {
-  margin-top: 1.286em; /* heading top margin minus sort bottom margin */
+  margin-top: 1.5em; /* heading top margin minus sort bottom margin */
 }
 
 .filters [type="checkbox"], .filters [type="radio"] {

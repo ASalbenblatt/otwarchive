@@ -82,12 +82,12 @@ form dd.notes dl {
 }
 
 .admin .module p {
-  margin: 0.643em 1.5em;
+  margin: 0.625em 1.5em;
 }
 
 span.symbol, span.symbol span {
   font-size: 90%;
-  padding: 0 0.15em;
+  padding: 0 0.125em;
   vertical-align: middle;
 }
 

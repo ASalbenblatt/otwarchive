@@ -6,14 +6,14 @@ blockquote contents (the user-written notes) are styled in userstuff.css like al
 
 div.preface {
   margin: 1.5em 3em;
-  padding: 0.643em 0.643em 0;
+  padding: 0.625em 0.625em 0;
   float: none;
 }
 
 div.preface .module {
   float: none;
   margin: 0;
-  padding: 0 0 0.643em;
+  padding: 0 0 0.625em;
   width: auto;
 }
 
@@ -46,7 +46,7 @@ div.preface .notes, div.preface .summary, div.preface .series, div.preface .chil
 }
 
 div.preface .series ul, div.preface .children ul {
-  padding: 0 0.643em;
+  padding: 0 0.625em;
 }
 
 div.preface .associations {

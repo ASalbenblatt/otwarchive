@@ -5,7 +5,7 @@ https://otwcode.github.io/docs/patterns/meta.html
 dl.meta {
   border: 1px solid #ccc;
   clear: right;
-  padding: 1.286em 0.75em;
+  padding: 1.5em 0.75em;
   position: relative;
   overflow: hidden;
 }
@@ -20,7 +20,7 @@ dl.meta {
 .meta dd {
   width: 72.5%;
   float: left;
-  margin: 0 0 0.643em;
+  margin: 0 0 0.625em;
 }
 
 .meta .stats dl {
@@ -71,7 +71,7 @@ dl.meta .wrapper {
   float: left;
   width: 100%;
   border-bottom: 1px solid #ccc;
-  padding-block: 1.286em;
+  padding-block: 1.5em;
     box-shadow: none;
 }
 
@@ -108,7 +108,7 @@ dl.meta .wrapper dd, dl.meta .wrapper dd p:last-of-type {
 .news .meta dd:after {
   content: " ";
   display: block;
-  height: 0.643em;
+  height: 0.625em;
 }
 
 /* TODO the post new work form needs its classes changed so these overrides are no longer needed */

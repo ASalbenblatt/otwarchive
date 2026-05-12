@@ -73,7 +73,7 @@ fieldset.comments, .comment .userstuff {
 .comment .userstuff {
   margin-bottom: 1em;
   margin-top: 1em;
-  min-height: 3.3em;
+  min-height: 3.5em;
 }
 
 .comment fieldset {
@@ -85,11 +85,11 @@ fieldset.comments, .comment .userstuff {
 }
 
 .comment .edited {
-  margin: 1.286em 0.643em 0.25em;
+  margin: 1.5em 0.625em 0.25em;
 }
 
 .comment .message {
-  padding: 0.643em;
+  padding: 0.625em;
 }
 
 .comment .actions {

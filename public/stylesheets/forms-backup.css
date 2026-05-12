@@ -88,13 +88,13 @@ form .edit-multiple-controls p.submit {
 /*DASHBOARD: EDIT PREFERENCES */
 
 form.edit_preference ul {
-  margin: 0.562625em auto 1.12525em auto;
-  padding: 0.562625em 0;
+  margin: 0.5625em auto 1.125em auto;
+  padding: 0.5625em 0;
   border-bottom: 1px dashed;
 }
 
 .edit_preference li {
-  margin: 0.562625em 0;
+  margin: 0.5625em 0;
 }
 
 /*DASHBOARD: EDIT PROFILE*/
@@ -179,7 +179,7 @@ img#openid {
 }
 
 #header #signin p.submit, #header #signin .submit input {
-  padding: 0.15em;
+  padding: 0.125em;
   border: 0;
   line-height: 1;
 }
@@ -479,7 +479,7 @@ img#openid {
 #work-form .meta .warning dl, #work-form .meta .category dl {
   border: 1px solid #7f9db9;
   background: #ffffff;
-  width: 48.15em;
+  width: 48.125em;
   padding: 0.2em 0.5em 0.4em 0.5em;
 }
 
@@ -569,7 +569,7 @@ img#openid {
 }
 
 #work-form dl.notes dl {
-  margin: 0.7em 0 0 0.1em;
+  margin: 0.75em 0 0 0.1em;
   top: 0;
   left: 0;
 }
@@ -817,7 +817,7 @@ textarea.comment_form {
 }
 
 #feedback li dl {
-  font-size: 1.142857em;
+  font-size: 1.125em;
 }
 
 .comment_form {

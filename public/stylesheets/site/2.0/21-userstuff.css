@@ -6,7 +6,7 @@
 }
 
 .userstuff p, .userstuff details {
-  margin: 1.286em auto;
+  margin: 1.5em auto;
   padding: 0;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .userstuff h6 {
-  font-size: 0.975em;
+  font-size: 1em;
   border-bottom: 1px solid;
 }
 
@@ -147,7 +147,7 @@
 
 .userstuff hr {
   width: 33%;
-  margin: 0.875em auto 1.2525em auto;
+  margin: 0.875em auto 1.5em auto;
   border: 1px solid;
 }
 
@@ -167,7 +167,7 @@
 /* WORK MARGINS */
 
 #workskin {
-  font-size: 1.08em;
+  font-size: 1em;
   margin: auto;
   padding: 0 0.25em;
   max-width: 72em;
@@ -195,7 +195,7 @@
 }
 
 .bookmark .user .userstuff blockquote {
-  margin-bottom: 1.286em;
+  margin-bottom: 1.5em;
 }
 
 .faq .userstuff dd {

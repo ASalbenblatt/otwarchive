@@ -35,7 +35,7 @@ https://otwcode.github.io/docs/patterns/regions.html#dashboard-region
 #dashboard ul {
   float: none;
   display: block;
-  padding: 1.286em 0;
+  padding: 1.5em 0;
   text-align: right;
   border-top: 2px solid #ddd;
   position: relative;

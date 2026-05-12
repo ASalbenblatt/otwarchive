@@ -9,7 +9,7 @@ https://otwcode.github.io/docs/classes-taxonomy.html#modifiers
 
 .draft {
   border: 2px dashed #aaa;
-  padding: 0.643em;
+  padding: 0.625em;
     border-radius: 0.5em;
 }
 
@@ -19,8 +19,8 @@ span.unread, .replied, span.claimed, .actions span.defaulted {
   background: #ccc;
   color: #900;
   width: auto;
-  font: 100 100%/1.286 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
-  height: 1.286em;
+  font: 100 100%/1.5 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Helvetica, sans-serif, 'GNU Unifont';
+  height: 1.5em;
   vertical-align: middle;
   display: inline-block;
   padding: 0.25em 0.75em;

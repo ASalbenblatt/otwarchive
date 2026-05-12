@@ -61,7 +61,7 @@ describe Skin do
       "allows properties that are variations on the ones in the shorthand config list" =>
         "#main ul.sorting {
           background: rgba(120,120,120,1) 5%;
-          -moz-border-radius:0.15em !important;
+          -moz-border-radius:0.125em !important;
           border-color:rgba(86,86,86,0.75) !important;
           box-shadow:0 2px 5px rgba(0,0,0,0.5);
           float:none !important;

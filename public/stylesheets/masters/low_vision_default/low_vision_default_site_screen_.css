@@ -216,7 +216,7 @@ input[type="submit"]:focus,
 
 .javascript .work.navigation .secondary a {
   height: 100%;
-  min-height: 1.286em;
+  min-height: 1.5em;
   padding-inline: 0.5em;
   white-space: normal;
 }
