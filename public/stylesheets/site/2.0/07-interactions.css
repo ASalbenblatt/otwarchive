@@ -223,7 +223,7 @@ We only use error messages for LiveValidation. Style spoofs the system error mes
   background: #fff;
   border: 1px solid #eee;
   padding: 0.125em;
-  line-height: 1.286;
+  line-height: 1.25;
   color: #000;
   display: block;
     background: rgba(255, 255, 255, 0.9);
