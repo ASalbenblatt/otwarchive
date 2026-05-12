@@ -226,6 +226,11 @@ p.qr svg {
   width: 100px;
 }
 
+.header .icon {
+  width: 8.265em;
+  height: 8.265em;
+}
+
 .icon a {
   border: 0;
 }

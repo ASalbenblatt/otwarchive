@@ -39,14 +39,21 @@ li.blurb:after, .blurb .blurb:after {
 }
 
 .blurb .header {
-  min-height: 55px;
+  min-height: 4em;
   margin-bottom: 0.375em;
 }
 
 .blurb .header .heading, .blurb .header ul {
   display: block;
   background: transparent;
-  margin: 0.375em 5.25em 0 65px;
+}
+
+.blurb .header h4.heading {
+  margin: 0.375em 5.25em 0 4.111em;
+}
+
+.blurb .header h5.heading {
+  margin: 0.375em 5.25em 0 4.625em;
 }
 
 .blurb .header img {
@@ -89,26 +96,26 @@ li.blurb:after, .blurb .blurb:after {
 .blurb ul.required-tags {
   position: absolute;
   top: 0;
-  width: 60px;
+  width: 4em;
   margin: 0;
 }
 
 .blurb ul.required-tags li, .blurb ul.required-tags li a, .blurb ul.required-tags li span {
   display: block;
-  width: 25px;
-  height: 25px;
+  width: 1.875em;
+  height: 1.875em;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
 
 .blurb ul.required-tags li {
-  margin-bottom: 3px;
+  margin-bottom: 0.25em;
 }
 
 .blurb ul.required-tags li+li+li, .blurb ul.required-tags li+li+li+li {
   position: absolute;
-  left: 28px;
+  left: 2.125em;
 }
 
 .blurb ul.required-tags li+li+li {
@@ -116,7 +123,7 @@ li.blurb:after, .blurb .blurb:after {
 }
 
 .blurb ul.required-tags li+li+li+li {
-  top: 28px;
+  top: 2.125em;
 }
 
 /* keeps the outline to the proper size in Firefox and Opera */
@@ -133,88 +140,89 @@ li.blurb:after, .blurb .blurb:after {
 
 .blurb ul.required-tags li span {
   background-repeat: no-repeat;
+  background-size: 15em 62.625em;
 }
 
 /* icon image replacement */
 
 .required-tags .rating-general-audience {
-  background: url("/images/imageset.png") -50px -25px;
+  background: url("/images/imageset.png") -3.75em -1.875em;
 }
 
 .required-tags .rating-explicit {
-  background: url("/images/imageset.png") -25px -25px;
+  background: url("/images/imageset.png") -1.875em -1.875em;
 }
 
 .required-tags .rating-mature {
-  background: url("/images/imageset.png") -75px -25px;
+  background: url("/images/imageset.png") -5.625em -1.875em;
 }
 
 .required-tags .rating-notrated, .required-tags .category-none, .required-tags .warning-no, .status .count {
-  background: url("/images/imageset.png") -150px 0px;
+  background: url("/images/imageset.png") -11.25em 0em;
 }
 
 .required-tags .rating-teen {
-  background: url("/images/imageset.png") 0px -25px;
+  background: url("/images/imageset.png") 0em -1.875em;
 }
 
 .required-tags .category-femslash {
-  background: url("/images/imageset.png") -25px 0px;
+  background: url("/images/imageset.png") -1.875em 0em;
 }
 
 .required-tags .category-gen {
-  background: url("/images/imageset.png") -50px 0px;
+  background: url("/images/imageset.png") -3.75em 0em;
 }
 
 .required-tags .category-slash {
-  background: url("/images/imageset.png") 0px 0px;
+  background: url("/images/imageset.png") 0em 0em;
 }
 
 .required-tags .category-het {
-  background: url("/images/imageset.png") -75px 0px;
+  background: url("/images/imageset.png") -5.625em 0em;
 }
 
 .required-tags .category-multi {
-  background: url("/images/imageset.png") -100px -0px;
+  background: url("/images/imageset.png") -7.5em -0em;
 }
 
 .required-tags .category-other {
-  background: url("/images/imageset.png") -125px 0px;
+  background: url("/images/imageset.png") -9.375em 0em;
 }
 
 .required-tags .complete-no {
-  background: url("/images/imageset.png") -100px -25px;
+  background: url("/images/imageset.png") -7.5em -1.875em;
 }
 
 .required-tags .complete-yes {
-  background: url("/images/imageset.png") -175px -25px;
+  background: url("/images/imageset.png") -13.125em -1.875em;
 }
 
 .required-tags .warning-yes {
-  background: url("/images/imageset.png") -150px -25px;
+  background: url("/images/imageset.png") -11.25em -1.875em;
 }
 
 .required-tags .warning-choosenotto {
-  background: url("/images/imageset.png") -125px -25px;
+  background: url("/images/imageset.png") -9.375em -1.875em;
 }
 
 .required-tags .external-work {
-  background: url("/images/imageset.png") -75px -50px;
+  background: url("/images/imageset.png") -5.625em -3.75em;
 }
 
 .status .private .text {
-  background: url("/images/imageset.png") -175px -50px;
+  background: url("/images/imageset.png") -13.125em -3.75em;
 }
 
 .status .public {
-  background: url("/images/imageset.png") -125px -50px;
+  background: url("/images/imageset.png") -9.375em -3.75em;
 }
 
 .status .hidden {
-  background: url("/images/imageset.png") -150px -50px;
+  background: url("/images/imageset.png") -11.25em -3.75em;
 }
 
 .status .rec {
-  background: url("/images/imageset.png") -100px -50px;
+  background: url("/images/imageset.png") -7.5em -3.75em;
 }
 
 /* == END icon block rules == */
@@ -260,8 +268,8 @@ eg collections, users, skins, instead of the 4-icon list
 .picture .icon img, .index .picture .icon {
   position: absolute;
   top: 0;
-  height: 55px;
-  width: 55px;
+  height: 4em;
+  width: 4em;
   background-repeat: no-repeat;
 }
 
